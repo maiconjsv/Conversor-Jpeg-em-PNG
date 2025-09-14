@@ -1,0 +1,65 @@
+Conversor de Imagens com Flask
+Este é um projeto simples de estudo e prática, feito em Python, que utiliza o micro-framework Flask para criar uma aplicação web. O objetivo é permitir que o usuário faça o upload de uma imagem no formato JPEG e a converta para o formato PNG.
+
+O projeto serve como uma excelente introdução ao desenvolvimento web com Python, abordando conceitos essenciais como:
+
+Rotas (Routes): Como definir URLs para diferentes páginas e funcionalidades.
+
+Requisições HTTP: Como lidar com o envio de dados (arquivos) via formulários HTML (método POST).
+
+Templates: Como renderizar arquivos HTML dinâmicos usando o Jinja2.
+
+Manipulação de Arquivos: Como receber, salvar e remover arquivos no servidor de forma segura.
+
+Processamento de Imagens: Como usar a biblioteca Pillow para manipular e converter arquivos de imagem.
+
+Como Baixar e Testar Localmente
+Siga os passos abaixo para executar o projeto na sua máquina.
+
+1. Pré-requisitos
+Certifique-se de que você tem o Python 3 instalado. Você pode verificar a versão do Python no seu terminal com o comando:
+
+Bash
+
+python --version
+2. Baixar o Projeto
+Você pode clonar este repositório do GitHub ou baixar o arquivo ZIP.
+
+Bash
+
+git clone https://www.youtube.com/watch?v=GRf6so_sois
+cd [nome-do-seu-repositorio]
+3. Configurar o Ambiente
+É uma boa prática criar um ambiente virtual para isolar as dependências do projeto.
+
+Bash
+
+# Cria o ambiente virtual
+python -m venv venv
+
+# Ativa o ambiente virtual
+# No Windows:
+venv\Scripts\activate
+# No macOS/Linux:
+source venv/bin/activate
+Agora, instale as bibliotecas necessárias: Flask e Pillow.
+
+Bash
+
+pip install Flask Pillow
+4. Executar a Aplicação
+Com as dependências instaladas, você pode iniciar o servidor Flask.
+
+Bash
+
+python app.py
+Você verá uma mensagem no terminal indicando que o servidor está rodando. Geralmente, ele fica disponível em http://127.0.0.1:5000.
+
+5. Usar o Conversor
+Abra seu navegador e acesse o endereço http://127.0.0.1:5000. Na página inicial, você encontrará um formulário para fazer o upload de uma imagem no formato JPEG.
+
+Clique em "Escolher arquivo" e selecione uma imagem .jpg ou .jpeg.
+
+Clique no botão "Converter".
+
+A aplicação irá processar a imagem e o navegador iniciará automaticamente o download do arquivo convertido em formato PNG.
