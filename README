@@ -25,11 +25,7 @@ python --version
 2. Baixar o Projeto
 Você pode clonar este repositório do GitHub ou baixar o arquivo ZIP.
 
-Bash
 
-git clone https://www.youtube.com/watch?v=GRf6so_sois
-cd [nome-do-seu-repositorio]
-3. Configurar o Ambiente
 É uma boa prática criar um ambiente virtual para isolar as dependências do projeto.
 
 Bash
